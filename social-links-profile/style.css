@@ -1,0 +1,68 @@
+:root {
+  --black: #141414;
+  --green: #c5f82a;
+  --white: #ffffff;
+  --grey: #333333;
+  --darkgrey: #1f1f1f;
+  --fontsize: 14px;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  height: 97vh;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 327px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--darkgrey);
+  border-radius: 12px;
+  padding: 24px;
+}
+.card .img-profile {
+  width: 88px;
+  border-radius: 50%;
+}
+.card .name {
+  font-size: 24px;
+  font-weight: 600;
+}
+.card .city {
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 700;
+}
+.card .bio {
+  font-size: 14px;
+  font-weight: 400;
+}
+.card .links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.card .links a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 12px;
+  background-color: var(--grey);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.card .links a:hover {
+  background-color: var(--green);
+  color: var(--grey);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
